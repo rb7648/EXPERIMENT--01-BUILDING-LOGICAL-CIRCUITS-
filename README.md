@@ -1,5 +1,8 @@
 # EXPERIMENT-01: BUILDING LOGICAL CIRCUITS
 
+## Name : Rethies B
+## Register Number : RA2511030010377
+
 ## 1. Aim
 
 To design, implement, simplify, and verify combinational logic circuits using Boolean algebra and digital logic gates.
@@ -33,6 +36,9 @@ F1 = (!A & B & C)
 **Output:** F1  
 **Challenge:** Simplify the expression and compare gate counts.
 
+<img width="1247" height="726" alt="Screenshot 2026-10-27 at 2 08 39 PM" src="https://github.com/user-attachments/assets/9c88aa00-eb84-4c9d-a3b4-1df19f5deb8a" />
+
+
 ### Equation 2: Product-of-Sums Circuit
 
 ```text
@@ -44,6 +50,9 @@ F2 = (A | !B | C)
 **Inputs:** A, B, C, D  
 **Output:** F2  
 **Challenge:** Implement the circuit using NAND gates and verify functional equivalence.
+
+<img width="1600" height="881" alt="WhatsApp Image 2026-10-27 at 2 21 46 PM" src="https://github.com/user-attachments/assets/554f99ce-d55f-413f-af32-56938bd142e9" />
+
 
 ### Equation 3: Nested Complement Logic
 
@@ -59,6 +68,9 @@ F3 = !(
 **Output:** F3  
 **Challenge:** Apply De Morgan's theorems and implement the circuit using NAND and NOR gates.
 
+<img width="1075" height="672" alt="WhatsApp Image 2026-10-27 at 2 28 05 PM" src="https://github.com/user-attachments/assets/84848645-d452-4ee2-b63e-1a7858ecb69b" />
+
+
 ### Equation 4: XOR-XNOR Combinational Circuit
 
 ```text
@@ -69,6 +81,10 @@ F4 = ((A XOR B) & (C XNOR D))
 **Inputs:** A, B, C, D  
 **Output:** F4  
 **Challenge:** Compare an XOR/XNOR implementation with a basic-gate implementation.
+
+<img width="1073" height="572" alt="WhatsApp Image 2026-10-27 at 2 26 44 PM" src="https://github.com/user-attachments/assets/c21f6ccd-7911-47a9-86dc-6ab5763df564" />
+
+
 
 ### Equation 5: Five-Input Logic Function
 
@@ -160,14 +176,32 @@ For each circuit, record:
 - Logic depth
 - Functional equivalence before and after simplification
 
-## 7. Expected Results (drop the screenshots of each equations circuit )
+## 7. Expected Results
 
+The eight Boolean functions should be implemented successfully. Their outputs should match the theoretical truth tables for all input combinations.
 
-
-
- 
 ## 8. Result
 
 The logic circuits are designed, implemented, and verified using Boolean algebra and digital logic gates. The original and simplified circuits are compared based on gate count and logic depth.
- 
- 
+
+## 9. Repository Structure
+
+```text
+EXPERIMENT-01-BUILDING-LOGICAL-CIRCUITS/
+├── README.md
+├── circuit_diagrams/
+├── truth_tables/
+├── simulation_files/
+└── results/
+```
+
+## 10. Viva Questions
+
+1. What are universal logic gates?
+2. State De Morgan's theorems.
+3. What is the difference between SOP and POS?
+4. How does XOR differ from XNOR?
+5. How can Boolean expressions be simplified?
+6. How many truth-table rows are required for six inputs?
+7. What is logic depth?
+8. Why is functional verification necessary?
